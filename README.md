@@ -23,8 +23,8 @@ The source code is available under the MIT license. The code is written in
 build this project, open the command line and run:
 
 ```
-git clone https://github.com/unbihexiumfan/edobox-11edo.git
-cd edobox-11edo
+git clone https://github.com/unbihexiumfan/edobox.git
+cd edobox
 npm install
 npm run build
 ```
