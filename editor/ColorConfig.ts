@@ -31,8 +31,8 @@ export class ColorConfig {
 				--ui-widget-background: #444;
 				--ui-widget-focus: #777;
 				--pitch-background: #444;
-				--tonic: #864;
-				--fifth-note: #468;
+				--tonic: #ff4d00;
+				--fifth-note: #0066ff;
 				--white-piano-key: #bbb;
 				--black-piano-key: #444;
 					--use-color-formula: false;
