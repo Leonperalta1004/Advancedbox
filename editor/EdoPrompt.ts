@@ -31,8 +31,8 @@ export class EdoPrompt implements Prompt {
 	constructor(private _doc: SongDocument) {
 
 		this._edo.value = this._doc.song.edo + "";
-		this._edo.min = "5";
-		this._edo.max = "53";
+		this._edo.min = "1";
+		this._edo.max = "10000";
 			
 		this._edo.select();
 			setTimeout(()=>this._edo.focus());
