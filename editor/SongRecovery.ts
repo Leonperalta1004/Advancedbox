@@ -17,8 +17,8 @@ export interface RecoveredSong {
 
 const versionPrefix = "songVersion: ";
 const maximumSongCount = 8;
-const maximumWorkPerVersion = 3 * 60 * 1000; // 3 minutes
-const minimumWorkPerSpan = 1 * 60 * 1000; // 1 minute
+const maximumWorkPerVersion = 3 * 60 * 10000; // 3 minutes
+const minimumWorkPerSpan = 1 * 60 * 10000; // 1 minute
 
 function keyIsVersion(key: string): boolean {
 	return key.indexOf(versionPrefix) == 0;
