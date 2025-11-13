@@ -1,6 +1,6 @@
 # Advancedbox
 
-Advancedbox is an online tool for sketching and sharing instrumental music.
+Advancedbox is an online tool for sketching and sharing chiptune melodies. Advancedbox takes it and makes it correctly useful!
 It is a modification of [edobox](https://jummbus.bitbucket.io) the [Synthbox](https://synthbox.co), focused on improving ease-of-use.
 
 All song data is packaged into the URL at the top of your browser. When you make
@@ -8,10 +8,10 @@ changes to the song, the URL is updated to reflect your changes. When you are
 satisfied with your song, just copy and paste the URL to save and share your
 song!
 
-BeepBox, and JummBox and EdoBox and advancedbox by extension, are passion projects and will always be free to use. If you find it
+BeepBox, and JummBox and EdoBox and AdvancedBox by extension, are passion projects and will always be free to use. If you find it
 valuable and have the means, please support the original creator, [John Nesky](http://www.johnnesky.com/), via
 [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QZJTX9GRYEV9N&currency_code=USD)!
-EdoBox is developed by UnbihexiumFan.
+AdvancedBox is developed by Leonperalta1004.
 
 ## Compiling
 
@@ -23,13 +23,13 @@ The source code is available under the MIT license. The code is written in
 build this project, open the command line and run:
 
 ```
-git clone https://github.com/unbihexiumfan/edobox.git
-cd edobox
+git clone https://github.com/leonperalta1004/advancedbox.git
+cd advancedbox
 npm install
 npm run build
 ```
 
-JummBox and Edobox make a divergence from BeepBox that necessitates an additional dependency:
+JummBox, Edobox and AdvancedBox make a divergence from BeepBox that necessitates an additional dependency:
 rather than using the (rather poor) default HTML select implementation, the custom
 library [select2](https://select2.org) is employed. select2 has an explicit dependency
 on [jQuery](https://jquery.com) as well, so you may need to install the following
