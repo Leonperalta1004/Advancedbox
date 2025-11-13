@@ -1,7 +1,7 @@
 # EdoBox
 
-EdoBox is an online tool for sketching and sharing instrumental music.
-It is a modification of [JummBox](https://jummbus.bitbucket.io) the [original BeepBox](https://beepbox.co), focused on improving ease-of-use.
+Advancedbox is an online tool for sketching and sharing instrumental music.
+It is a modification of [edobox](https://jummbus.bitbucket.io) the [Synthbox](https://synthbox.co), focused on improving ease-of-use.
 
 All song data is packaged into the URL at the top of your browser. When you make
 changes to the song, the URL is updated to reflect your changes. When you are
